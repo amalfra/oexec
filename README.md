@@ -26,7 +26,7 @@ You can execute list of shell commands in following orders:
 
 The result of each command will be returned as ```oexec.Output``` struct which has fields
 * Stdout - a ```byte``` array containing stdout produced by the command. Will be nil if command status is non zero
-* Stderr - an ```errror``` object containing stderr returned by the command. Will be nil if command status is zero  
+* Stderr - an ```error``` object containing stderr returned by the command. Will be nil if command status is zero  
 
 ### executing in series
 To execute commands in series call the function as
