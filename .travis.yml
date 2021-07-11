@@ -15,6 +15,6 @@ script: make test
 
 deploy:
   provider: script
-  script: VERISON=$TRAVIS_TAG make publish
+  script: make publish VERISON=$TRAVIS_TAG
   on:
     tags: true
