@@ -12,3 +12,9 @@ go:
   - 1.16.x
 
 script: make test
+
+deploy:
+  provider: script
+  script: VERISON=$TRAVIS_TAG make publish
+  on:
+    tags: true
