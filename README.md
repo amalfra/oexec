@@ -1,7 +1,7 @@
 oexec
 =====
 [![GitHub release](https://img.shields.io/github/release/amalfra/oexec.svg)](https://github.com/amalfra/oexec/releases)
-[![Build Status](https://travis-ci.org/amalfra/oexec.svg?branch=master)](https://travis-ci.org/amalfra/oexec)
+[![Build Status](https://travis-ci.com/amalfra/oexec.svg?branch=main)](https://travis-ci.com/amalfra/oexec)
 [![GoDoc](https://godoc.org/github.com/amalfra/oexec?status.svg)](https://godoc.org/github.com/amalfra/oexec)
 [![Go Report Card](https://goreportcard.com/badge/github.com/amalfra/oexec)](https://goreportcard.com/report/github.com/amalfra/oexec)
 
