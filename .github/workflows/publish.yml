@@ -11,4 +11,4 @@ jobs:
         uses: dawidd6/action-get-tag@v1
       - run: |
           echo "publishing version: ${{steps.tag.outputs.tag}}"
-          curl https://proxy.golang.org/github.com/amalfra/oexec/@v/${{steps.tag.outputs.tag}}.info
+          curl https://proxy.golang.org/github.com/amalfra/oexec/v2/@v/${{steps.tag.outputs.tag}}.info
