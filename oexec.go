@@ -43,9 +43,20 @@ func run(cmd string) *Output {
 	return outStruct
 }
 
+// removeEmptyStr will remove empty strings from the slice
+func removeEmptyStr(s []string) []string {
+	var r []string
+	for _, str := range s {
+		if str != "" && str != " " {
+			r = append(r, str)
+		}
+	}
+	return r
+}
+
 // processCmdStr will split full command string to command and arguments slice
 func processCmdStr(cmd string) (cmdName string, cmdArgs []string) {
-	cmdParts := strings.Split(cmd, " ")
+	cmdParts := removeEmptyStr(strings.Split(cmd, " "))
 	return cmdParts[0], cmdParts[1:]
 }
 
