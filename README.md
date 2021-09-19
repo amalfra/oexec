@@ -12,13 +12,13 @@ A go package to execute shell commands in specified order. Currently supports ex
 ## Installation
 You can download the package using
 ```sh
-go get github.com/amalfra/oexec
+go get github.com/amalfra/oexec/v2
 ```
 ## Usage
 Next, import the package
 ``` go
 import (
-  "github.com/amalfra/oexec"
+  "github.com/amalfra/oexec/v2"
 )
 ```
 You can execute list of shell commands in following orders:
