@@ -4,6 +4,7 @@ oexec
 ![Build Status](https://github.com/amalfra/oexec/actions/workflows/test.yml/badge.svg?branch=main)
 [![GoDoc](https://godoc.org/github.com/amalfra/oexec/v3?status.svg)](https://godoc.org/github.com/amalfra/oexec/v3)
 [![Go Report Card](https://goreportcard.com/badge/github.com/amalfra/oexec)](https://goreportcard.com/report/github.com/amalfra/oexec)
+[![Coverage Status](https://coveralls.io/repos/github/amalfra/oexec/badge.svg?branch=main)](https://coveralls.io/github/amalfra/oexec?branch=main)
 
 A go package to execute shell commands in specified order. Currently supports executing list of shell commands in following orders:
 * Series
